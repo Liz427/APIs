@@ -21,7 +21,7 @@ function fetchQuote() {
 }
 
 function displayQuote(quoteData) {
-    const container = document.getElementById('quote-container');
+    const container = document.getElementById('games-container');
     container.innerHTML = `
         <p><strong>${quoteData.character.name}:</strong> "${quoteData.sentence}"</p>
     `;
